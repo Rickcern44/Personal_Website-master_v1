@@ -1,0 +1,209 @@
+/* RESET CSS*/
+a, p, h1, h2, h3, ul, ol, li, img{
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol, li{
+  list-style: none;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: url("../img/background.jpg") no-repeat center;
+  background-size: cover;
+}
+
+#background{
+  height: 1164px;
+  width: 100%;
+  background-size: cover;
+}
+
+#nav{
+  height:280px;
+  width: 100%;
+}
+
+.wrapper{
+	max-width: 1260px;
+	width: calc(100% - 50px);
+  padding: 0 25px;
+	margin: 20px auto;
+}
+
+.headerContainer{
+  width: 390px;
+  margin: 0 auto;
+}
+
+#logo{
+  float: center;
+  width: 200px;
+  padding-top: 50px;
+  margin: 0 80px;
+}
+
+.navList{
+  width: 100%;
+  color: #e6e7d9;
+  float: left;
+  margin-top: -15px;
+  /*padding-right: 200px;*/
+}
+
+.navList li, .navList li a{
+  font-size: 25px;
+  letter-spacing: 0.046em;
+  font-family: 'Old Standard TT', serif;
+  font-weight: 400;
+  color: #e6e7d9;
+  text-decoration: none;
+}
+
+.navList li{
+  padding: 0;
+  /*margin-right: 200px;*/
+}
+
+.about{
+  float: left;
+  text-align: left;
+}
+
+.portfolio{
+  float: right;
+  text-align: right;
+}
+
+.navList li:last-child{
+  padding-left: 0;
+  margin-right: 0;
+}
+
+#box{
+  /*height: 1260px;*/
+  height: 750px;
+  width: 100%;
+  max-width: 1260px;
+  background-color: #e7e7da;
+  border: 12px solid #e7eda;
+  box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+#me{
+  height: 726px;
+  width: 498px;
+  padding-top: 12px;
+  margin-left: 12px
+}
+
+#hello{
+  height: 68px;
+  width: 145px;
+  margin-left: 550px;
+  margin-top: -725px
+}
+
+#box p{
+  font-size: 22px;
+  letter-spacing: 0.046em;
+  line-height: 1.5;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 300;
+  color: #505b6f;
+  text-decoration: none;
+  margin-left: 550px;
+  padding-top: 20px;
+}
+
+#factbox{
+  height: 260px;
+  width: 730px;
+  background-color: #95aca2;
+  margin-left: 520px;
+  margin-top: 25px;
+}
+
+#factbox h3{
+  font-size: 25px;
+  letter-spacing: 0.046em;
+  font-family: 'Old Standard TT', serif;
+  font-weight: 400;
+  color: #e6e7d9;
+  text-decoration: none;
+  margin-left: 28px;
+  padding-top: 15px;
+}
+
+#factbox p{
+  font-size: 22px;
+  letter-spacing: 0.046em;
+  line-height: 2;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 300;
+  color: #505b6f;
+  text-decoration: none;
+  margin-left: 28px;
+  padding-top: 10px;
+}
+
+#resume{
+  height: 80px;
+  width: 210px;
+  margin-left: 780px;
+  padding-top: 57px;
+}
+
+.bottom{
+  float: center;
+  height: 125px;
+  width: 100%;
+}
+
+#googleplus{
+  height: 35px;
+  width: 35px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+#linkedin{
+  height: 35px;
+  width: 35px;
+  float: right;
+  margin-right: 15px;
+  margin-top: 5px;
+}
+
+#behance{
+  height: 35px;
+  width: 35px;
+  float: right;
+  margin-right: 15px;
+  margin-top: 5px;
+}
+
+#message{
+  background: url("../img/message.jpg") no-repeat;
+  height: 37px;
+  width: 182px;
+  float: left;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.wrapper p{
+  font-size: 18px;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 300;
+  color: #e6e7d9;
+  text-decoration: none;
+  margin-left: 21px;
+  padding-top: 55px;
+}
