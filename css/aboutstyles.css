@@ -89,7 +89,7 @@ body{
   width: 100%;
   max-width: 1260px;
   background-color: #e7e7da;
-  border: 12px solid #e7eda;
+  border: 12px solid;
   box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
